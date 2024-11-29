@@ -11,10 +11,8 @@ self-hostable.
 3. Create a Firebase project with Cloud Messaging turned on
 4. Copy `example.env` to `.env` and fill in the empty values
 5. Place Firebase Admin SDK credentials in `server/firebase.json`
-6. Place Firebase Web SDK credentials in `app/firebase.ts`
-7. Set a subscription limit in `app/config.ts`
-8. Run `docker compose build`
-9. Run `docker compose up -d`
+6. Run `docker compose build`
+7. Run `docker compose up -d`
 
 The service will now be running in the background. To make the service
 accessible from the outside on port 80, the following can be added to `app` in

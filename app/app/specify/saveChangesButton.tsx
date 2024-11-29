@@ -6,7 +6,7 @@
 "use client"
 
 import { save } from "@/actions/save"
-import { SubscriptionLimit } from "@/config"
+import { SubscriptionLimit } from "@/util/env"
 import FirebaseApp from "@/util/firebase"
 import { useDataStore } from "@/util/store"
 import { FirebaseError } from "firebase/app"

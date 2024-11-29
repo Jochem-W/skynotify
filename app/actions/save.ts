@@ -5,8 +5,8 @@
  */
 "use server"
 
-import { SubscriptionLimit } from "@/config"
 import Drizzle from "@/util/db"
+import { SubscriptionLimit } from "@/util/env"
 import { subscriptionTable, tokenTable } from "@/util/schema"
 import { eq } from "drizzle-orm"
 import { redirect } from "next/navigation"

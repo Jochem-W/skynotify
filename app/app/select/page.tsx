@@ -10,7 +10,7 @@ import Header from "@/components/header"
 import InstructionList from "@/components/instructionList"
 import NoFollowing from "@/components/noFollowing"
 import ProgressBar from "@/components/progressBar"
-import { SubscriptionLimit } from "@/config"
+import { SubscriptionLimit } from "@/util/env"
 import { Metadata } from "next"
 import Link from "next/link"
 

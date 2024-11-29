@@ -11,7 +11,7 @@ import { ProfileView } from "@atproto/api/dist/client/types/app/bsky/actor/defs"
 import { parse, stringify } from "superjson"
 import { create, StateCreator } from "zustand"
 import { combine, persist, PersistStorage } from "zustand/middleware"
-import { SubscriptionLimit } from "../config"
+import { SubscriptionLimit } from "./env"
 
 export type Profile = {
   handle: string
